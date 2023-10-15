@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.block{
+    width: 23%;
+    border: 1px solid honeydew;
+}
+
+.image{
+    height: 250px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.text{
+    padding-left: 10px;
+}
+
+.description{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color:gray;
+}
+.title{
+    font-family: 'Mohave', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.block:hover{
+    box-shadow: 5px 5px 5px gray;
+    .price{
+        color: brown;
+    }
+}
